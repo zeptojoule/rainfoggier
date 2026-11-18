@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "rainfog"
+version = "1.0.0"
+displayName = "Rain Fog"
+description = '''
+Aumenta a neblina durante a chuva (em todos os biomas) e ainda mais durante tempestades,
+simulando uma redução da distância de renderização. Mod apenas de cliente.
+'''
+
+[[dependencies.rainfog]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.rainfog]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "CLIENT"
